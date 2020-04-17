@@ -1,5 +1,11 @@
-<section>
-  <h1>Lecture 1 Notes</h1>
-</section>
+---
+layout: default
+title: Lecture 1
+description: This is just another page
+---
 
-THis is Lecture 1
+## Welcome to another page
+
+_yay_
+
+[back](./)
