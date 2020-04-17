@@ -128,14 +128,14 @@ In summary, **switch statements** are an alternate way to write if-statements. A
 
 <br>
 
-* Let's say I want a code that will do the following:
+* Let's say I want a program that will output the following:
 ```
 How many times do you want to be greeted? 3
 Hello
 Hello
 Hello
 ```
-* We could write the following:
+* We could write plenty of if-statments:
 ```cpp
 cout << "How many times do you want to be greeted> ";
 int nTimes;
@@ -155,11 +155,14 @@ cin >> nTimes;
 
 * However, this is not very practical for large numbers
 
-- We can use a **while-statement**, which is very similar to an if-statement
-  - The difference is that if-statements only execute the program once
-  - While-statements **loop back** and check the original condition again until it no longer true
+- Instead, we can use a **while-statement**, which is very similar to an if-statement
 
-* The program is as follows
+  - The difference is that if-statements only execute the program once
+  
+  - While-statements **loop back** and check the original condition again until it is no longer true
+
+
+* Now, the program is as follows:
 
 ```cpp
 cout << "How many times do you want to be greeted> ";
