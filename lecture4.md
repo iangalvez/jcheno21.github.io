@@ -53,6 +53,7 @@ int main()
 <ul>
   <li>There's a more convenient way to write the code above:</li>
 </ul>
+<br>
 
 ```cpp
 int main()
