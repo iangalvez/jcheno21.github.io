@@ -1,6 +1,8 @@
 ## Lecture 4 Notes
 <br>
+
 * Recall the <b>if-ladder</b> from the last lecture:
+
 <br>
 
 ```cpp
