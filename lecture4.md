@@ -52,6 +52,7 @@ int main()
 <ul>
   <li>There's a more convenient way to write the code above:
 </ul>
+
 ```cpp
 int main()
 {
