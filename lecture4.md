@@ -19,7 +19,7 @@ else
 }}
 ```
 
-* The <b>if-ladder</b> can get really messy, so pay extra attention to the number and relative positions of <code>if</code> and <code>else</code>
+* The if-ladder can get really messy, so pay extra attention to the number and relative positions of <code>if</code> and <code>else</code>
 
 * Let's say we have a program that asks the user to make a choice from one to five:
 
@@ -87,12 +87,18 @@ int main()
 ``` 
 
 - This is called a <b>switch statement</b>
+
   - Initiate it wiith <code>switch (variableName)</code> followed by curly braces
+  
     - <code>variableName</code> is the name you defined as an int
+    
   - Write out <code>case</code>, followed by the integer you want to assign to it
+  
   - If there is another integer that satisfies the same condition, write it as another case immediately following the previous case
+  
   - <code>break</code> tells the program to ignore everything else that comes afterward <i>within</i> the switch statement
-  - If the int does not match any of the cases, it will jump to the <code>default</code> section</li>
+  
+  - If the int does not match any of the cases, it will jump to the <code>default</code> section
 <br>
 
 **Frequently Asked Questions**
