@@ -210,10 +210,12 @@ for (int n = 1; n <= nTimes; n++)
 ```
 
 - It follows the following syntax:
-```
+```cpp
 for (initialization; stay-in-loop condition; prepare-for-next-iteration)
   statement
   ...
 ```
+
+* The advantage of a for-loop is that all the necessary components are set up at the top of the command
 
 [back](./)
