@@ -200,6 +200,7 @@ while (n <= nTimes)
 <br>
 
 - Pay attention to <code><</code> vs. <code><=</code> **and** <code>></code> vs. <code>>=</code> when writing loops
+  
   - They can cause you calculations to be off by one
   
 <br>
