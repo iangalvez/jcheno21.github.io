@@ -112,6 +112,14 @@ int main()
 <br>
 In summary, **switch statments** are an alternate way to write if-statements. Although they are clearer to read, they are very limited and only work with integers.
 
-   
+<br>
+
+* Let's say I want a code that will do the following:
+```cpp
+How many times do you want to be greeted? 3
+Hello
+Hello
+Hello
+```
 
 [back](./)
