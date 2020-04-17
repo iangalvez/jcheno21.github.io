@@ -7,7 +7,7 @@
 </ul>
 
 ```cpp
-// Javascript code with syntax highlighting.
+// C++ code
 #include<iostream>
 using namespace std;
 
