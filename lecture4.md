@@ -268,4 +268,18 @@ for (int n = 1; n < 1000; n *= 2)
   cout << n << endl;
 ```
 
+* The output will look like
+```
+1
+2
+4
+8
+16
+32
+64
+128
+256
+512
+```
+
 [back](./)
