@@ -205,7 +205,7 @@ while (n <= nTimes)
   
 <br>
 
-* Let's consider an **infinite loop**, where you do not have an assignment statement at the end of the while-statement
+* Let's consider an **infinite loop**, such that there is no assignment statement at the end
 
 ```cpp
 int n = 1;
