@@ -218,7 +218,7 @@ while (n <= 10)
 }
 ```
 
-* The variable <code>n</code> will be the same everytime, so the loop goes on forever
+* The variable <code>n</code> will be the same every time, so the loop goes on forever
 
 * If you run an infinite loop, you need to close the window or hit <code>Ctrl+C</code> to exit out of the program
 
