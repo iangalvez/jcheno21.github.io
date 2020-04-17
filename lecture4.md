@@ -21,6 +21,8 @@ else
 
 * The if-ladder can get really messy, so pay extra attention to the number and relative positions of <code>if</code> and <code>else</code>
 
+<br>
+
 **Switch Statements**
 
 * Let's say we have a program that asks the user to make a choice from one to five:
