@@ -116,7 +116,7 @@ In summary, **switch statments** are an alternate way to write if-statements. Al
 
 * Let's say I want a code that will do the following:
 ```
-How many times do you want to be greeted? 3
+**How many times do you want to be greeted?** 3
 Hello
 Hello
 Hello
