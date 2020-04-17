@@ -99,7 +99,7 @@ int main()
 - Could you use a range of numbers for cases?
   - No, you need to type each case separately
 
-- Could you use > or < signs for cases?
+- Could you use <code>></code> or <code><</code> signs for cases?
   - No, you can only assign a certain case to a specific integer
   
 - Could you use a switch for strings or doubles?
