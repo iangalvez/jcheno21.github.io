@@ -94,6 +94,9 @@ int main()
     <li>If there is another integer that satisfies the same condition, write it immediately on the next line</li>
     <br>
     <li><code>break</code> tells the program to ignore everything else that comes afterward <i>inside</i> the switch statement</li>
+    <br>
+    <li>If the int does not match any of the cases, it will jump to the <code>default:</code> section</li>
+    <br>
   </ul>
 </ul>
 
