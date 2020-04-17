@@ -109,6 +109,9 @@ int main()
 - Could you use a switch for **strings or doubles**?
   - No, you can only use integers
 
+<br>
+**In summary, switch statments are an alternate way to write if-statements. Although they are clearer to read, they are very limited and only work with integers.**
+
    
 
 [back](./)
