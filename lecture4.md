@@ -201,6 +201,8 @@ while (n <= nTimes)
 
 - Pay attention to <code><</code> vs. <code><=</code> **and** <code>></code> vs. <code>>=</code> when writing loops
   - They can cause you calculations to be off by one
+  
+<br>
 
 * Let's consider an **infinite loop**, where you do not have an assignment statement at the end of the while-statement
 
