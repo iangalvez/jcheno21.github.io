@@ -229,4 +229,15 @@ for (int k = 10; k >= 0; k++)
   ...
 ```
 
+<br>
+
+**Example**
+
+* The following program writes out the powers of 2 that are less than 1000, starting at 1
+
+```cpp
+for (int n = 1; n < 1000; n *= 2)
+  cout << n << endl;
+```
+
 [back](./)
