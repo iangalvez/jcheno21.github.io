@@ -140,6 +140,13 @@ int main()
       <li>No, you can only use integers
     </ul>
 </ul>
-
-
+<br><br>
+<ul>
+  <li>Could you use a switch for strings or doubles?</li>
+    <ul>
+      <br>
+      <li>No, you can only use integers
+    </ul>
+</ul>
+* Hi
 [back](./)
