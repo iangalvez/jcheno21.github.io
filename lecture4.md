@@ -159,5 +159,13 @@ while (n <= nTimes)
   n = n + 1 // Reassigns n and loops back to the beginning of the while-statement
 }
 ```
+<br>
+
+**Shorthands for Assignment Statements**
+
+- These assignment statements are particularly useful for loops, and can be condensed as follows
+  - <code>n = n + 1</code> becomes <code>n += 1</code>
+  - <code>m = m * 1</code> becomes <code>m *= 1</code>
+  - <code>k = k / 1</code> becomes <code>k /= 1</code>
 
 [back](./)
