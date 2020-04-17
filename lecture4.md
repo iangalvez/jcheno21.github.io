@@ -18,12 +18,10 @@ else
     else
       cout << "Very high";
 }}
-``` 
+```
+<br>
 <ul>
-  <li>The <b>if-ladder</b> can get really messy</li>
-  <ul>
-    <li>Pay extra attention to the number and relative position of <code>if</code> and <code>else</code></li>
-  </ul>
+  <li>The <b>if-ladder</b> can get really messy, so pay extra attention to the number and relative positions of <code>if</code> and <code>else</code></li>
   <br>
   <li>Let's say we have a program that asks the user to make a choice from one to five</li>
   <br>
