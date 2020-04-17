@@ -48,4 +48,36 @@ int main()
   ...
 }
 ``` 
+<br>
+<ul>
+  <li>There's a more convenient way to write the code above:
+</ul>
+```cpp
+int main()
+{
+  ...
+  int choice;
+  cin >> choice;
+  switch (choice) // Use the keyword 'switch'
+  {
+    case 1: // 'case' is another keyword
+      cout << "Do thing A" << endl;
+      break;
+    case 2:
+    case 4:
+      cout << "Do thing B" << endl;
+      break;
+    case 3:
+    case 5:
+      cout << "Do thing B" << endl;
+      break;
+    default:
+      cout << "Choice must be 1 through 5." << endl;
+      cout << "I'll assume you wanted choice 1" << endl;
+      cout << "Do thing A" << endl;
+  }
+  ...
+}
+``` 
+
 [back](./)
