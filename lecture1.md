@@ -6,6 +6,17 @@
   <li>Milk</li>
 </ul>
 
+```cpp
+// Javascript code with syntax highlighting.
+#include<iostream>
+using namespace std;
+
+int main()
+{
+cout << "Hello World! << endl;
+}
+```
+
 
 
 [back](./)
