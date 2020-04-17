@@ -1,5 +1,27 @@
 ## Lecture 4 Notes
-Please check back soon.
-<br>I am currently in the process of transferring my notes over from Google Drive</br>
+
+<ul>
+  <li>Computer science is <code>Amazing</code></li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ul>
+
+```cpp
+// C++ code
+#include<iostream>
+using namespace std;
+
+int main()
+{
+cout << "Type a number" << endl;
+  int R;
+  cin >> R;
+
+if (R=1)
+  cout << "Hello World!" << endl;
+}
+``` 
+That was code
+
  
 [back](./)
