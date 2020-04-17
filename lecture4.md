@@ -200,7 +200,6 @@ while (n <= nTimes)
 <br>
 
 - Pay attention to <code><</code> vs. <code><=</code> **and** <code>></code> vs. <code>>=</code> when writing loops
-  
   - They can cause you calculations to be off by one
   
 <br>
@@ -221,7 +220,7 @@ while (n <= 10)
 
 * The variable <code>n</code> will be the same everytime, so the loop goes on forever
 
-* If you run an infinite loop, you need to close the window or hit Ctrl+C to exit out of the program
+* If you run an infinite loop, you need to close the window or hit <code>Ctrl+C</code> to exit out of the program
 
 <br>
 
@@ -235,9 +234,9 @@ for (int n = 1; n <= nTimes; n++)
   ...
 ```
 
-- It follows the following syntax:
+- It has the following syntax:
 ```cpp
-for (initialization; stay-in-loop condition; prepare-for-next-iteration)
+for (initialization; stay_In_Loop_Condition; prepare_For_Next_Iteration)
   statement
   ...
 ```
