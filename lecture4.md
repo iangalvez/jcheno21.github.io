@@ -92,7 +92,8 @@ int main()
   - If there is another integer that satisfies the same condition, write it as another case immediately following the previous case
   - <code>break</code> tells the program to ignore everything else that comes afterward <i>within</i> the switch statement
   - If the int does not match any of the cases, it will jump to the <code>default</code> section</li>
-
+<br>
+**Frequently Asked Questions**
 - What happens if you accidentally forgot to include a <b>break</b>?
   - The program will run the code for subsequent cases until it sees another <code>break</code>
 
