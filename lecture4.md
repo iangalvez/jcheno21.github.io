@@ -110,7 +110,7 @@ int main()
   - No, you can only use integers
 
 <br>
-In summary, **switch statments** are an alternate way to write if-statements. Although they are clearer to read, they are very limited and only work with integers.
+In summary, **switch statements** are an alternate way to write if-statements. Although they are clearer to read, they are very limited and only work with integers.
 
 <br>
 
