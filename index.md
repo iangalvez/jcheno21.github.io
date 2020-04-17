@@ -7,4 +7,4 @@ This repository is very much a work in progress. Here, you will find lecture not
 <a href="lecture1.md">Lecture 1</a>
 </section>
 
-ri
+
