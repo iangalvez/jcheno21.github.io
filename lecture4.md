@@ -61,7 +61,7 @@ int main()
   cin >> choice;
   switch (choice) // Use the keyword 'switch'
   {
-    case 1: // 'case' is another keyword
+    case 1: // Notice the integer that choice is equal to proceeds 'case'
       cout << "Do thing A" << endl;
       break;
     case 2:
@@ -82,7 +82,15 @@ int main()
 ``` 
 <br>
 <ul>
-  <li>This is called a <b>switch</b> statement</li>
+  <li>This is called a <b>switch statement</b></li>
+  <br>
+  <ul>
+    <li>Notice, after <code>switch</code>, there is a set of parentheses containing the name of the integer</li>
+    <br>
+    <li>After <code>case</code>, there is an integer specific to the 'case'</li>
+    <br>
+    <li><code>break</code> tells the program to ignore everything else that comes afterward in the switch statement</li>
+  </ul>
 </ul>
 
 
