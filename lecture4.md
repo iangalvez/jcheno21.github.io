@@ -22,10 +22,32 @@ else
 <ul>
   <li>The <b>if-ladder</b> can get really messy</li>
   <ul>
-    <br>
     <li>Pay extra attention to the number and relative position of <code>if</code> and <code>else</code></li>
   </ul>
+  <br>
+  <li>Let's say we have a program that asks the user to make a choice from one to five</li>
+  <br>
 </ul>
-<br>
  
+```cpp
+int main()
+{
+  ...
+  int choice;
+  cin >> choice;
+  if (choice == 1)
+    cout << "Do thing A" << endl;
+  else if (choice == 2 || choice == 4)
+    cout << "Do thing B" << endl;
+  else if (choice == 3 || choice == 5)
+    cout << "Do thing C" << endl;
+  else
+  {
+    cout << "Choice must be 1 through 5." << endl;
+    cout << "I'll assume you wanted choice 1" << endl;
+    cout << "Do thing A" << endl;
+  }
+  ...
+}
+``` 
 [back](./)
