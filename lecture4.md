@@ -143,7 +143,7 @@ Hello
 Hello
 Hello
 ```
-* We could write plenty of if-statments, but this is not practical for large numbers:
+* We could write plenty of if-statements, but this is not practical for large numbers:
 ```cpp
 cout << "How many times do you want to be greeted> ";
 int nTimes;
