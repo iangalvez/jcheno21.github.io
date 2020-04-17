@@ -1,8 +1,6 @@
 ## Lecture 4 Notes
 <br>
-<ul>
-  <li>Recall the <b>if-ladder</b> from the last lecture:</li>
-</ul>
+* Recall the <b>if-ladder</b> from the last lecture:
 <br>
 
 ```cpp
@@ -21,12 +19,10 @@ else
 }}
 ```
 <br>
-<ul>
-  <li>The <b>if-ladder</b> can get really messy, so pay extra attention to the number and relative positions of <code>if</code> and <code>else</code></li>
+* The <b>if-ladder</b> can get really messy, so pay extra attention to the number and relative positions of <code>if</code> and <code>else</code>
   <br>
-  <li>Let's say we have a program that asks the user to make a choice from one to five</li>
+* Let's say we have a program that asks the user to make a choice from one to five</li>
   <br>
-</ul>
  
 ```cpp
 int main()
