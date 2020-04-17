@@ -13,6 +13,11 @@ using namespace std;
 
 int main()
 {
+cout << "Type a number" << endl;
+int R;
+cin >> R;
+
+if (R=1)
 cout << "Hello World!" << endl;
 }
 ``` 
