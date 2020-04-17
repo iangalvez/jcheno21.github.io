@@ -165,7 +165,10 @@ while (n <= nTimes)
 
 - These assignment statements are particularly useful for loops, and can be condensed as follows
   - <code>n = n + 1</code> becomes <code>n += 1</code>
-  - <code>m = m * 1</code> becomes <code>m *= 1</code>
-  - <code>k = k / 1</code> becomes <code>k /= 1</code>
+  - <code>m = m * 2</code> becomes <code>m *= 2</code>
+  - <code>k = k / 10</code> becomes <code>k /= 10</code>
+
+- There are even shorter ways to write the same thing
+  - <code>n++</code> = <code>++n</code> = <code>n += 1</code> = <code>n = n + 1</code>
 
 [back](./)
