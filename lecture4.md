@@ -1,9 +1,9 @@
 ## Lecture 4 Notes
-
+<br>
 <ul>
   <li>Recall the <b>if-ladder</b> from the last lecture:</li>
 </ul>
-
+<br>
 ```cpp
 if (income < 30000)
   cout << "Low";
