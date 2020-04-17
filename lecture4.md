@@ -1,7 +1,7 @@
 ## Lecture 4 Notes
 
 <ul>
-  <li>Recall the <b>if-ladder</b> from the last lecture:/li>
+  <li>Recall the <b>if-ladder</b> from the last lecture:</li>
 </ul>
 
 ```cpp
@@ -19,7 +19,6 @@ else
       cout << "Very high";
 }}
 ``` 
-That was code
 
  
 [back](./)
