@@ -50,8 +50,8 @@ int main()
 }
 ``` 
 
+<br>
 * There's a more convenient way to write the code above:
-
 
 ```cpp
 int main()
@@ -89,10 +89,11 @@ int main()
   ...
 }
 ``` 
+<br>
 
 - This is called a <b>switch statement</b>
 
-  - Initiate it wiith <code>switch (variableName)</code> followed by curly braces
+  - Initiate it with <code>switch (variableName)</code>, followed by curly braces
   
     - <code>variableName</code> is the name you defined as an int<br>
      
@@ -100,9 +101,9 @@ int main()
     
   - Write out <code>case</code>, followed by the specific number you want to assign to it
   
-  - If another number satisfies the same condition, write it as another case on the next line
+  - If another number satisfies the same condition, write it as a separate case on the next line
   
-  - <code>break</code> tells the program to ignore everything else that comes afterward <i>within</i> the switch statement
+  - <code>break</code> tells the program to ignore everything else that comes afterwards <i>within</i> the switch statement
   
   - If the int does not match any of the cases, it will jump to the <code>default</code> section
   
@@ -111,7 +112,6 @@ int main()
 **Frequently Asked Questions**
 
 - What happens if you accidentally forgot to include a <b>break</b>?
-
   - The program will run the code for subsequent cases until it sees another <code>break</code><br>
    
 - Could you use a **range of numbers** for cases?
