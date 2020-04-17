@@ -116,7 +116,7 @@ int main()
       <li>The program will run the code for subsequent cases until it sees another <code>break</code></li>
     </ul>
 </ul>
-<br><br>
+<br>
 <ul>
   <li>Could you use a range of numbers for cases as in <code>case 10-19:</code>?</li>
     <ul>
@@ -124,7 +124,7 @@ int main()
       <li>No, you need to type each case separately
     </ul>
 </ul>
-<br><br>
+<br>
 <ul>
   <li>Could you use greater than or less than signs for cases as in <code>case > 100:</code>?</li>
     <ul>
@@ -132,7 +132,7 @@ int main()
       <li>No, you can only assign a certain case to a certain number
     </ul>
 </ul>
-<br><br>
+<br>
 <ul>
   <li>Could you use a switch for strings or doubles?</li>
     <ul>
