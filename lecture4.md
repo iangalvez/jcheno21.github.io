@@ -61,23 +61,32 @@ int main()
   ...
   int choice;
   cin >> choice;
-  switch (choice) // Use the keyword 'switch'
+  
+  // Switch Statement
+  switch (choice)
   {
-    case 1: // Notice the integer that choice is equal to proceeds 'case'
+    // Equivalent to saying 'if (choice == 1)'
+    case 1:
       cout << "Do thing A" << endl;
       break;
+      
+    // Equivalent to saying 'if (choice == 2 || choice == 4)'
     case 2:
     case 4:
       cout << "Do thing B" << endl;
       break;
+      
     case 3:
     case 5:
       cout << "Do thing B" << endl;
       break;
+      
+    // This is used when your input does not match any of the cases
     default:
       cout << "Choice must be 1 through 5." << endl;
       cout << "I'll assume you wanted choice 1" << endl;
       cout << "Do thing A" << endl;
+      break; // This 'break' is optional since it is at the bottom of the switch statement anyways
   }
   ...
 }
@@ -99,6 +108,7 @@ int main()
     <br>
   </ul>
 </ul>
+
 
 
 [back](./)
