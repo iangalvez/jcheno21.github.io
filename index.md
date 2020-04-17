@@ -1,3 +1,2 @@
-# CS 31 at UCLA
-j
-
+  title: Kirsten Greed
+  description: Cognitive Load
