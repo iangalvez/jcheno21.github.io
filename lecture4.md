@@ -110,10 +110,10 @@ int main()
 </ul>
 <br>
 <ul>
-  <li>What happens if you accidentally forgot to include a <b>break</b>?
+  <li>What happens if you accidentally forgot to include a <b>break</b>?</li>
     <ul>
       <br>
-      <li> The program will run the code for subsequent cases until it sees another <code>break</code>.
+      <li>The program will run the code for subsequent cases until it sees another <code>break</code></li>
     </ul>
 </ul>
 
