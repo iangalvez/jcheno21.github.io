@@ -19,6 +19,11 @@ else
       cout << "Very high";
 }}
 ``` 
-
+<ul>
+  <li>The <b>if-ladder</b> can get really messy</li>
+  <ul>
+    <li>Pay extra attention to the number and relative position of <code>if</code> and <code>else</code></li>
+  </ul>
+</ul>
  
 [back](./)
