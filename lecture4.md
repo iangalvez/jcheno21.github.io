@@ -1,9 +1,7 @@
 ## Lecture 4 Notes
-<br>
 
 * Recall the <b>if-ladder</b> from the last lecture:
 
-<br>
 
 ```cpp
 if (income < 30000)
@@ -20,11 +18,11 @@ else
       cout << "Very high";
 }}
 ```
-<br>
+
 * The <b>if-ladder</b> can get really messy, so pay extra attention to the number and relative positions of <code>if</code> and <code>else</code>
-  <br>
-* Let's say we have a program that asks the user to make a choice from one to five</li>
-  <br>
+
+* Let's say we have a program that asks the user to make a choice from one to five
+
  
 ```cpp
 int main()
@@ -48,9 +46,9 @@ int main()
 }
 ``` 
 <br>
-<ul>
-  <li>There's a more convenient way to write the code above:</li>
-</ul>
+
+* There's a more convenient way to write the code above:
+
 <br>
 
 ```cpp
