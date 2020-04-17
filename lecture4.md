@@ -109,20 +109,18 @@ int main()
 
   - The program will run the code for subsequent cases until it sees another <code>break</code>
   
-<br>
 - Could you use a **range of numbers** for cases?
 
   - No, you need to type each case separately
   
-<br>
 - Could you use <code>></code> or <code><</code> signs for cases?
   
   - No, you can only assign a certain case to a specific integer
   
-<br>  
 - Could you use a switch for **strings or doubles**?
 
   - No, you can only use integers
+
 <br>
 
 In summary, **switch statements** are an alternate way to write if-statements. Although they are clearer to read, they are very limited and only work with integers.
