@@ -101,7 +101,7 @@ int main()
   
   - If the int does not match any of the cases, it will jump to the <code>default</code> section
   
-<br><br>
+<br>
 
 **Frequently Asked Questions**
 
