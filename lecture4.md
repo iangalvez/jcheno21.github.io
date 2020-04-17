@@ -115,7 +115,7 @@ In summary, **switch statments** are an alternate way to write if-statements. Al
 <br>
 
 * Let's say I want a code that will do the following:
-```cpp
+```
 How many times do you want to be greeted? 3
 Hello
 Hello
