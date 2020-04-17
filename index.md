@@ -4,5 +4,5 @@ This repository is very much a work in progress. Here, you will find lecture not
 
 <section>
   <h1>Lecture Notes</h1>
-<a href="lecture1.md">Lecture 1</a>
+<a href="lecture1">Lecture 1</a>
 </section>
