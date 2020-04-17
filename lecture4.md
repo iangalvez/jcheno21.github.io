@@ -118,7 +118,7 @@ int main()
 </ul>
 <br><br>
 <ul>
-  <li>Could you use a range of numbers for cases as in <code>case 10-19</code>?</li>
+  <li>Could you use a range of numbers for cases as in <code>case 10-19:</code>?</li>
     <ul>
       <br>
       <li>No, you need to type each case separately
@@ -126,13 +126,20 @@ int main()
 </ul>
 <br><br>
 <ul>
-  <li>Could you use greater than or less than signs for cases as in <code>case > 100 </code>?</li>
+  <li>Could you use greater than or less than signs for cases as in <code>case > 100:</code>?</li>
     <ul>
       <br>
       <li>No, you can only assign a certain case to a certain number
     </ul>
 </ul>
-
+<br><br>
+<ul>
+  <li>Could you use a switch for strings or doubles?</li>
+    <ul>
+      <br>
+      <li>No, you can only use integers
+    </ul>
+</ul>
 
 
 [back](./)
