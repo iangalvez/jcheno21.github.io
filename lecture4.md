@@ -1,6 +1,6 @@
 ## Lecture 4 Notes
 
-* Recall the <b>if-ladder</b> from the last lecture:
+* Recall the **if-ladder** from the last lecture:
 
 
 ```cpp
@@ -93,7 +93,9 @@ int main()
   - <code>break</code> tells the program to ignore everything else that comes afterward <i>within</i> the switch statement
   - If the int does not match any of the cases, it will jump to the <code>default</code> section</li>
 <br>
+
 **Frequently Asked Questions**
+
 - What happens if you accidentally forgot to include a <b>break</b>?
   - The program will run the code for subsequent cases until it sees another <code>break</code>
 
