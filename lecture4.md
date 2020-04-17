@@ -45,11 +45,9 @@ int main()
   ...
 }
 ``` 
-<br>
 
 * There's a more convenient way to write the code above:
 
-<br>
 
 ```cpp
 int main()
@@ -87,64 +85,28 @@ int main()
   ...
 }
 ``` 
-<br>
-<ul>
-  <li>This is called a <b>switch statement</b></li>
-  <br>
-  <ul>
-    <li>Notice, after <code>switch</code>, there is a set of parentheses containing the name of the integer</li>
-    <br>
-    <li>After <code>case</code>, there is an integer specific to the 'case'</li>
-    <br>
-    <li>If there is another integer that satisfies the same condition, write it immediately on the next line</li>
-    <br>
-    <li><code>break</code> tells the program to ignore everything else that comes afterward <i>inside</i> the switch statement</li>
-    <br>
-    <li>If the int does not match any of the cases, it will jump to the <code>default:</code> section</li>
-    <br>
-  </ul>
-</ul>
-<br>
-<ul>
-  <li>What happens if you accidentally forgot to include a <b>break</b>?</li>
-    <ul>
-      <br>
-      <li>The program will run the code for subsequent cases until it sees another <code>break</code></li>
-    </ul>
-</ul>
-<br>
-<ul>
-  <li>Could you use a range of numbers for cases as in <code>case 10-19:</code>?</li>
-    <ul>
-      <br>
-      <li>No, you need to type each case separately
-    </ul>
-</ul>
-<br>
-<ul>
-  <li>Could you use greater than or less than signs for cases as in <code>case > 100:</code>?</li>
-    <ul>
-      <br>
-      <li>No, you can only assign a certain case to a certain number
-    </ul>
-</ul>
-<br>
-<ul>
-  <li>Could you use a switch for strings or doubles?</li>
-    <ul>
-      <br>
-      <li>No, you can only use integers
-    </ul>
-</ul>
-<br><br>
-<ul>
-  <li>Could you use a switch for strings or doubles?</li>
-    <ul>
-      <br>
-      <li>No, you can only use integers
-    </ul>
-</ul>
 
-* Hi
+- This is called a <b>switch statement</b>
+  - Notice, after <code>switch</code>, there is a set of parentheses containing the name of the integer
+  - After <code>case</code>, there is an integer specific to the 'case'
+  - If there is another integer that satisfies the same condition, write it immediately on the next line
+  - <code>break</code> tells the program to ignore everything else that comes afterward <i>inside</i> the switch statement
+  - If the int does not match any of the cases, it will jump to the <code>default:</code> section</li>
+
+- What happens if you accidentally forgot to include a <b>break</b>?
+  - The program will run the code for subsequent cases until it sees another <code>break</code>
+
+- Could you use a range of numbers for cases as in <code>case 10-19:</code>?
+  - No, you need to type each case separately
+
+- Could you use greater than or less than signs for cases as in <code>case > 100:</code>?
+  - No, you can only assign a certain case to a certain number
+  
+- Could you use a switch for strings or doubles?
+  - No, you can only use integers
+
+- Could you use a switch for strings or doubles?
+  - No, you can only use integers
+   
 
 [back](./)
