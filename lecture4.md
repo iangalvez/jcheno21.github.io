@@ -108,6 +108,13 @@ int main()
     <br>
   </ul>
 </ul>
+<br>
+<ul>
+  <li>What happens if you accidentally forgot to include a <code>break</code>?
+    <ul>
+      <li> The program will run the code for subsequent cases until it sees another <code>break</code>.
+    </ul>
+</ul>
 
 
 
