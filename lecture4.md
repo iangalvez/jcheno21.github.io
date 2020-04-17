@@ -21,7 +21,7 @@ else
 
 * The <b>if-ladder</b> can get really messy, so pay extra attention to the number and relative positions of <code>if</code> and <code>else</code>
 
-* Let's say we have a program that asks the user to make a choice from one to five
+* Let's say we have a program that asks the user to make a choice from one to five:
 
  
 ```cpp
@@ -87,26 +87,24 @@ int main()
 ``` 
 
 - This is called a <b>switch statement</b>
-  - Notice, after <code>switch</code>, there is a set of parentheses containing the name of the integer
-  - After <code>case</code>, there is an integer specific to the 'case'
-  - If there is another integer that satisfies the same condition, write it immediately on the next line
-  - <code>break</code> tells the program to ignore everything else that comes afterward <i>inside</i> the switch statement
-  - If the int does not match any of the cases, it will jump to the <code>default:</code> section</li>
+  - Initiate it wiith <code>switch (variableName)</code> followed by curly braces
+  - Write out <code>case</code>, followed by the integer you want to assign to it
+  - If there is another integer that satisfies the same condition, write it as another case immediately following the previous case
+  - <code>break</code> tells the program to ignore everything else that comes afterward <i>within</i> the switch statement
+  - If the int does not match any of the cases, it will jump to the <code>default</code> section</li>
 
 - What happens if you accidentally forgot to include a <b>break</b>?
   - The program will run the code for subsequent cases until it sees another <code>break</code>
 
-- Could you use a range of numbers for cases as in <code>case 10-19:</code>?
+- Could you use a range of numbers for cases?
   - No, you need to type each case separately
 
-- Could you use greater than or less than signs for cases as in <code>case > 100:</code>?
-  - No, you can only assign a certain case to a certain number
+- Could you use > or < signs for cases?
+  - No, you can only assign a certain case to a specific integer
   
 - Could you use a switch for strings or doubles?
   - No, you can only use integers
 
-- Could you use a switch for strings or doubles?
-  - No, you can only use integers
    
 
 [back](./)
