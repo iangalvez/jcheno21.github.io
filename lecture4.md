@@ -91,7 +91,9 @@ int main()
     <br>
     <li>After <code>case</code>, there is an integer specific to the 'case'</li>
     <br>
-    <li><code>break</code> tells the program to ignore everything else that comes afterward in the switch statement</li>
+    <li>If there is another integer that satisfies the same condition, write it immediately on the following line</li>
+    <br>
+    <li><code>break</code> tells the program to ignore everything else that comes afterward <i>inside</i> the switch statement</li>
   </ul>
 </ul>
 
