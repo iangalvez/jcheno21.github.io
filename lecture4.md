@@ -243,9 +243,12 @@ for (initialization; stay_In_Loop_Condition; prepare_For_Next_Iteration)
 
 * The advantage of a for-loop is that all the necessary components are set up at the top of the command
 
-- Infinite loops are still possible in for-loops
+- You can still have an infinite loop
+
   - In the example below, our "prepare-for-next-iteration" is set so that <code>k</code> gets added by 1
+  
   - This will always satisfy the "stay-in-loop" condition
+  
   - The computer will perform this operation until it hits 1 billion, the largest value for an int
 
 ```cpp
