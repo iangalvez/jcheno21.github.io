@@ -50,7 +50,7 @@ int main()
 ``` 
 <br>
 <ul>
-  <li>There's a more convenient way to write the code above:
+  <li>There's a more convenient way to write the code above:</li>
 </ul>
 
 ```cpp
@@ -80,6 +80,10 @@ int main()
   ...
 }
 ``` 
+<br>
+<ul>
+  <li>This is called a <b>switch</b> statement</li>
+</ul>
 
 
 [back](./)
