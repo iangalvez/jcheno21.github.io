@@ -1,25 +1,23 @@
 ## Lecture 4 Notes
 
 <ul>
-  <li>Computer science is <code>Amazing</code></li>
-  <li>Tea</li>
-  <li>Milk</li>
+  <li>Recall the <b>if-ladder</b> from the last lecture:/li>
 </ul>
 
 ```cpp
-// C++ code
-#include<iostream>
-using namespace std;
-
-int main()
+if (income < 30000)
+  cout << "Low";
+else 
 {
-cout << "Type a number" << endl;
-  int R;
-  cin >> R;
-
-if (R=1)
-  cout << "Hello World!" << endl;
-}
+  if (income >= 30000 && income < 100000)
+    cout << "Middle";
+  else
+  {
+    if (income >= 100000 && income < 500000)
+      cout << "High";
+    else
+      cout << "Very high";
+}}
 ``` 
 That was code
 
