@@ -128,6 +128,8 @@ In summary, **switch statements** are an alternate way to write if-statements. A
 
 <br>
 
+**While-Loops**
+
 * Let's say I want a program that will output the following:
 ```
 How many times do you want to be greeted? 3
