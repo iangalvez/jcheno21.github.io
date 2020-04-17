@@ -90,7 +90,7 @@ int main()
 
   - Initiate it wiith <code>switch (variableName)</code> followed by curly braces
   
-    - <code>variableName</code> is the name you defined as an int
+    - <code>variableName</code> is the name you defined as an int<br>
     
     
   - Write out <code>case</code>, followed by the specific number you want to assign to it
@@ -107,19 +107,19 @@ int main()
 
 - What happens if you accidentally forgot to include a <b>break</b>?
 
-  - The program will run the code for subsequent cases until it sees another <code>break</code>
+  - The program will run the code for subsequent cases until it sees another <code>break</code><br>
   
 - Could you use a **range of numbers** for cases?
 
-  - No, you need to type each case separately
+  - No, you need to type each case separately<br>
   
 - Could you use <code>></code> or <code><</code> signs for cases?
   
-  - No, you can only assign a certain case to a specific integer
+  - No, you can only assign a certain case to a specific integer<br>
   
 - Could you use a switch for **strings or doubles**?
 
-  - No, you can only use integers
+  - No, you can only use integers<br>
 
 <br>
 
