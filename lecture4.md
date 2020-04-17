@@ -143,7 +143,7 @@ Hello
 Hello
 Hello
 ```
-* We could write plenty of if-statments:
+* We could write plenty of if-statments, but this is not practical for large numbers:
 ```cpp
 cout << "How many times do you want to be greeted> ";
 int nTimes;
@@ -160,8 +160,6 @@ cin >> nTimes;
   if (nTimes >= 5);
     cout << "Hello" << endl;
 ```
-
-* However, this is not very practical for large numbers
 
 - Instead, we can use a **while-statement**, which is very similar to an if-statement
 
