@@ -88,6 +88,7 @@ int main()
 
 - This is called a <b>switch statement</b>
   - Initiate it wiith <code>switch (variableName)</code> followed by curly braces
+    - <code>variableName</code> is the name you defined as an int
   - Write out <code>case</code>, followed by the integer you want to assign to it
   - If there is another integer that satisfies the same condition, write it as another case immediately following the previous case
   - <code>break</code> tells the program to ignore everything else that comes afterward <i>within</i> the switch statement
