@@ -50,6 +50,7 @@ int main()
 }
 ``` 
 
+<br>
 * There's a more convenient way to write the code above:
 
 
