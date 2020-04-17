@@ -179,4 +179,41 @@ while (n <= nTimes)
 - Pay attention to <code><</code> vs. <code><=</code> **and** <code>></code> vs. <code>>=</code> when writing loops
   - They can cause you calculations to be off by one
 
+* Let's consider an **infinite loop**, where you do not have an assignment statement at the end of the while-statement
+
+```cpp
+int n = 1;
+while (n <= 10)
+{
+...
+...
+...
+...
+...
+}
+```
+
+* The variable <code>n</code> will be the same everytime, so the loop goes on forever
+
+* If you run an infinite loop, you need to close the window or hit Ctrl+C to exit out of the program
+
+<br>
+
+**For Loops**
+
+* There is another type of loop called a **for-loop**
+
+```cpp
+for (int n = 1; n <= nTimes; n++)
+  cout << "Hello" << endl;
+  ...
+```
+
+- It follows the following syntax:
+```
+for (initialization; stay-in-loop condition; prepare-for-next-iteration)
+  statement
+  ...
+```
+
 [back](./)
