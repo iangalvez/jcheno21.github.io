@@ -170,5 +170,6 @@ while (n <= nTimes)
 
 - There are even shorter ways to write the same thing
   - <code>n++</code> = <code>++n</code> = <code>n += 1</code> = <code>n = n + 1</code>
+  - <code>n--</code> = <code>--n</code> = <code>n -= 1</code> = <code>n = n - 1</code>
 
 [back](./)
