@@ -341,7 +341,7 @@ else
 }
 ```
 
-* Pay attention to the <code>&&</code< and <code>||</code>’s
+* Pay attention to the <code>&&</code> and <code>||</code>’s
   
 * Also pay attention to the <code><</code> vs. <code><=</code> and <code>></code> vs. <code>>=</code>
 
