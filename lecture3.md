@@ -420,17 +420,17 @@ else
 
 ```cpp
 if (income < 30000)
-cout << "Low";
+  cout << "Low";
 else 
 {
-if (income >= 30000 && income < 100000)
-cout << "Middle";
-else
-{
-if (income >= 100000 && income < 500000)
-cout << "High";
-else
-cout << "Very high";
+  if (income >= 30000 && income < 100000)
+    cout << "Middle";
+  else
+  {
+    if (income >= 100000 && income < 500000)
+      cout << "High";
+    else
+      cout << "Very high";
 }}
 ```
 
