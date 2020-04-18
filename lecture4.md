@@ -1,7 +1,6 @@
 For a **pdf version** of these notes, click [here](./Lecture 4 Notes.pdf).
 
 ---
-## Lecture 4 Notes
 
 * Recall the **if-ladder** from the last lecture:
 
@@ -137,7 +136,7 @@ In summary, **switch statements** are an alternate way to write if-statements. A
 
 <br>
 
-**While-Loops**
+### While-Loops
 
 * Let's say I want a program that will output the following:
 ```
@@ -187,7 +186,7 @@ while (n <= nTimes)
 ```
 <br>
 
-**Shorthands for Assignment Statements**
+### Shorthands for Assignment Statements
 
 - These assignment statements are particularly useful for loops, and can be condensed as follows
   - <code>n = n + 1</code> becomes <code>n += 1</code>
@@ -227,7 +226,7 @@ while (n <= 10)
 
 <br>
 
-**For Loops**
+### For Loops
 
 * There is another type of loop called a **for-loop**
 
