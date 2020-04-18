@@ -53,7 +53,7 @@ if (payRate >= 18.00)
 ...
 ```
 
-### Annotations and Organization
+## Annotations and Organization
 
 * Your code will be easier to read if you break it into sections with space in between
 
@@ -146,7 +146,7 @@ PAYRATE_THRESHOLD = 19.00; // Wants to change the "const" defined earlier
 ...
 ```
 
-### Complex if-statments
+## Complex if-statments
 
 - The following program will compile, but it will output wrong results
 
@@ -317,7 +317,7 @@ For <code>A || B</code>
 1. If A is true, the result is true, and B is not even evaluated.
 1. If A is false, evaluate B, result is A or B.
 
-### De Morgan's Law
+## De Morgan's Law
 
 * Sometimes, we want the shorter lines of commands to be on top to make it easier to read
 
@@ -383,7 +383,7 @@ else
   - <code>not (a == b)</code> turns into <code>a != b</code>
   - <code>not (a != b)</code> turns into <code>a == b</code>
 
-### If-Ladders
+## If-Ladders
 
 - Let’s write a program that categorizes income into the following categories:
 
