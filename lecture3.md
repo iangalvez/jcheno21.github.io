@@ -353,7 +353,7 @@ else
   
 * Also pay attention to the <code><</code> vs. <code><=</code> and <code>></code> vs. <code>>=</code>
 
-* The following program switches the && to an || and is logically equivalent to the program at the top of this page
+* The following program switches the <code>&&</code> to an <code>||</code> and is logically equivalent to the program at the top of this page
 
 ```cpp
 if (citizenship != "US" || age < 18)
