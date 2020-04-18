@@ -1,5 +1,5 @@
 ## Lecture 4 Notes
-
+<br>[Lecture 4](./Lecture 4.pdf)
 * Recall the **if-ladder** from the last lecture:
 
 
