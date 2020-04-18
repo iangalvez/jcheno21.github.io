@@ -1,3 +1,6 @@
+For a **pdf version** of Lecture 1 notes, click [here](./Lecture 1 Notes.pdf).
+
+---
 
 ## Introduction to Programming
 
