@@ -44,7 +44,7 @@ cout << "pay rate is " << payRate << endl;
 
 * Note that <code>endl</code> stands for “end line” and is used to move onto the next line
 
-- <code>#include <iostream></code> allows the C++ compiler to use <code>cin</code> and <code>cout</code>
+- #include <iostream> allows the C++ compiler to use <code>cin</code> and <code>cout</code>
   
   - These are the input and output streams
 
@@ -66,10 +66,10 @@ cout << "pay rate is " << payRate << endl;
 
 - Examples:
   - <code>fred</code>
-	- <code>covid19</code>
-	- <code>covid_19</code>
-	- <code>hours_worked</code>
-	- <code>hoursworked</code>
+  - <code>covid19</code>
+  - <code>covid_19</code>
+  - <code>hours_worked</code>
+  - <code>hoursworked</code>
 
 ## Types
 
@@ -79,49 +79,44 @@ cout << "pay rate is " << payRate << endl;
   
   - 15 to 16 decimal digits of precision
   
-  - From <math>10^{-308}</math> to <math>10^{308}</math>
-
-int is used to define whole numbers from -2 billion to 2 billion
+  - From 10<sup>-308}</sup> to 10<sup>308<-sup>
 
 
+* <code>int</code> is used to define whole numbers from -2 billion to 2 billion
 
 
-The following code tells the program that all subsequent outputs are to be 2 decimal places in precision
+* The following code tells the program that all subsequent outputs are to be 2 decimal places in precision
 
+```cpp
 cout.setf(ios::fixed);
 cout.precision(2);
+```
 
+## Mathematics
 
-Mathematics
+* Most order of operations PEMDAS from algebra carry over to C++
 
-Most order of operations PEMDAS from algebra carry over to C++
+* Multiplication and division have higher precedence than addition and subtraction
 
-Multiplication and division have higher precedence than addition and subtraction
+* Operators with equal precedence are read from left to right
 
-Operators with equal precedence are read from left to right
+- However, the star operator must be used for multiplication
 
-However, the star operator must be used for multiplication
+  - <code>2(3+5)</code> must be written as <code>2*(3+5)</code>
 
-2(3+5) must be written as 2*(3+5)
+- Four possible cases for division operations, and one case for the remainder modulus:
 
-Four possible cases for division operations, and one case for the remainder modulus:
+  - Double ÷ Double = Double <br> <code>14.3/5.0 = 2.86</code>
 
-Double ÷ Double = Double
-14.3/5.0 = 2.86
+  - Double ÷ Int = Double <br> <code>8.65/3 = 2.8833</code>
 
-Double ÷ Int = Double
-8.65/3 = 2.8833
+  - Int ÷ Double = Double <br> <code>14/5.0 = 2.8</code>
+  
+  - Int ÷ Int = Int <br> <code>14/5 = 2</code>
 
-Int ÷ Double = Double
-14/5.0 = 2.8
+  - Remainder Modulus <br> <code>14%5 = 4</code>
 
-Int ÷ Int = Int
-14/5 = 2
-
-Remainder Modulus
-14%5 = 4
-
-Most compilers will restrict outputs to four decimal places
+* Most compilers will restrict outputs to four decimal places
 
 If less than four decimal places, doubles will be truncated to the last nonzero digit
 
