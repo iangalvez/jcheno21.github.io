@@ -1,3 +1,6 @@
+For a **pdf version** of Lecture 2 notes, click [here](./Lecture 2 Notes.pdf).
+
+---
 
 * Although we declared g in the following example, we did not initialize it
 
