@@ -2,6 +2,8 @@ For a **pdf version** of Lecture 2 notes, click [here](./Lecture 2 Notes.pdf).
 
 ---
 
+## Recap of Previous Lecture
+
 * Although we declared g in the following example, we did not initialize it
 
 * The code will compile, but there will not be an output
