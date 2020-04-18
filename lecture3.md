@@ -1,4 +1,6 @@
-## Lecture 3 Notes
+For a **pdf version** of Lecture 3 notes, click [here](./Lecture 3 Notes.pdf).
+
+---
 
 * Recall the following program from lecture 2
 
@@ -51,6 +53,8 @@ if (payRate >= 18.00)
 ...
 ```
 
+### Annotations and Organization
+
 * Your code will be easier to read if you break it into sections with space in between
 
 - Sections should be separated by function
@@ -97,6 +101,7 @@ int main()
 }
 ```
 
+## The "Constant" Declaration
 * If you are writing a program with certain variables that change frequently, define them at the top of the program
 
 ```cpp
@@ -140,6 +145,8 @@ PAYRATE_THRESHOLD = 19.00; // Wants to change the "const" defined earlier
 // Program will not compile!!!!
 ...
 ```
+
+### Complex if-statments
 
 - The following program will compile, but it will output wrong results
 
@@ -310,6 +317,7 @@ For <code>A || B</code>
 1. If A is true, the result is true, and B is not even evaluated.
 1. If A is false, evaluate B, result is A or B.
 
+### De Morgan's Law
 
 * Sometimes, we want the shorter lines of commands to be on top to make it easier to read
 
@@ -360,7 +368,7 @@ else
 ```
 
 
-- The De Morgan Laws state that when you take the opposite, you need to switch the <code>&&</code> and <code>||</code>’s
+- **De Morgan's Law** states that when you take the opposite, you need to switch the <code>&&</code> and <code>||</code>’s
   
   - <code>not (A AND B)</code> turns into <code>(not A) or (not B)</code>
   - <code>not (A OR B)</code> turns into <code>(not A) AND (not B)</code>
@@ -374,6 +382,8 @@ else
   - <code>not (a > b)</code> turns into <code>a <= b</code>
   - <code>not (a == b)</code> turns into <code>a != b</code>
   - <code>not (a != b)</code> turns into <code>a == b</code>
+
+### If-Ladders
 
 - Let’s write a program that categorizes income into the following categories:
 
