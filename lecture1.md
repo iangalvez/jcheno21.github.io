@@ -82,7 +82,7 @@ cout << "pay rate is " << payRate << endl;
   
   - 15 to 16 decimal digits of precision
   
-  - From 10<sup>-308}</sup> to 10<sup>308<-sup>
+  - From 10<sup>-308</sup> to 10<sup>308<-sup>
 
 
 * <code>int</code> is used to define whole numbers from -2 billion to 2 billion
