@@ -1,5 +1,6 @@
-I am currently in the process of importing the summary sheet from Google Drive.
- 
-Please check back soon!
+For a **pdf version** of the Summary Sheet, click [here](./Summary of Topics.pdf).
+
+---
+
 
 [back](./)
