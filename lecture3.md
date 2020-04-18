@@ -150,7 +150,7 @@ PAYRATE_THRESHOLD = 19.00; // Wants to change the "const" defined earlier
 
 - The following program will compile, but it will output wrong results
 
-  - This is because the else statement will pair up with the nearest <code>if</code> that is not paired
+  - This is because the else statement will pair up with the nearest preceding <code>if</code> that is not paired
 
 ```cpp
 ...
