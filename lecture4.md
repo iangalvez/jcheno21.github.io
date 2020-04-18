@@ -4,7 +4,6 @@ For a **pdf version** of Lecture 4 notes, click [here](./Lecture 4 Notes.pdf).
 
 * Recall the **if-ladder** from the last lecture:
 
-
 ```cpp
 if (income < 30000)
   cout << "Low";
@@ -22,8 +21,6 @@ else
 ```
 
 * The if-ladder can get really messy, so pay extra attention to the number and relative positions of <code>if</code> and <code>else</code>
-
-<br>
 
 ## Switch Statements
 
@@ -52,9 +49,7 @@ int main()
 }
 ``` 
 
-<br>
 * There's a more convenient way to write the code above:
-
 
 ```cpp
 int main()
@@ -92,7 +87,6 @@ int main()
   ...
 }
 ``` 
-<br>
 
 - This is called a <b>switch statement</b>
 
@@ -131,14 +125,13 @@ int main()
   - No, you can only use integers<br>
 
 <br>
-
 In summary, **switch statements** are an alternate way to write if-statements. Although they are clearer to read, they are very limited and only work with integers.
 
-<br>
 
 ## While-Loops
 
 * Let's say I want a program that will output the following:
+
 ```
 How many times do you want to be greeted? 3
 Hello
@@ -146,6 +139,7 @@ Hello
 Hello
 ```
 * We could write plenty of if-statements, but this is not practical for large numbers:
+
 ```cpp
 cout << "How many times do you want to be greeted> ";
 int nTimes;
@@ -184,7 +178,6 @@ while (n <= nTimes)
   n = n + 1 // Reassigns n and loops back to the beginning of the while-statement
 }
 ```
-<br>
 
 ## Shorthands for Assignment Statements
 
@@ -193,19 +186,16 @@ while (n <= nTimes)
   - <code>m = m * 2</code> becomes <code>m *= 2</code>
   - <code>k = k / 10</code> becomes <code>k /= 10</code>
 
-<br>
 
 - There are even shorter ways to write the same thing
   - <code>n++</code> = <code>++n</code> = <code>n += 1</code> = <code>n = n + 1</code>
   - <code>n--</code> = <code>--n</code> = <code>n -= 1</code> = <code>n = n - 1</code>
   
-<br>
 
 - Pay attention to <code><</code> vs. <code><=</code> **and** <code>></code> vs. <code>>=</code> when writing loops
   - They can cause you calculations to be off by one
   
-<br>
-
+  
 * Let's consider an **infinite loop**, such that there is no assignment statement at the end
 
 ```cpp
@@ -224,8 +214,6 @@ while (n <= 10)
 
 * If you run an infinite loop, you need to close the window or hit <code>Ctrl+C</code> to exit out of the program
 
-<br>
-
 ## For Loops
 
 * There is another type of loop called a **for-loop**
@@ -237,6 +225,7 @@ for (int n = 1; n <= nTimes; n++)
 ```
 
 - It has the following syntax:
+
 ```cpp
 for (initialization; stay_In_Loop_Condition; prepare_For_Next_Iteration)
   statement
@@ -258,8 +247,6 @@ for (int k = 10; k >= 0; k++)
   cout << k << endl;
   ...
 ```
-
-<br>
 
 **Example**
 
