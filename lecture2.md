@@ -248,7 +248,7 @@ int main()
 }
 ```
 
-## Assignment Statments
+## Assignment Statements
 
 * An assignment statement is used to set a variable that has already been declared to an expression
 
