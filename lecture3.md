@@ -2,6 +2,8 @@ For a **pdf version** of Lecture 3 notes, click [here](./Lecture 3 Notes.pdf).
 
 ---
 
+## Recap of Previous Lecture
+
 * Recall the following program from lecture 2
 
 ```cpp
