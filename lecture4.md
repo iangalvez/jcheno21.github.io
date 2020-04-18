@@ -187,15 +187,12 @@ while (n <= nTimes)
   - <code>m = m * 2</code> becomes <code>m *= 2</code>
   - <code>k = k / 10</code> becomes <code>k /= 10</code>
 
-
 - There are even shorter ways to write the same thing
   - <code>n++</code> = <code>++n</code> = <code>n += 1</code> = <code>n = n + 1</code>
   - <code>n--</code> = <code>--n</code> = <code>n -= 1</code> = <code>n = n - 1</code>
   
-
 - Pay attention to <code><</code> vs. <code><=</code> **and** <code>></code> vs. <code>>=</code> when writing loops
   - They can cause you calculations to be off by one
-  
   
 * Let's consider an **infinite loop**, such that there is no assignment statement at the end
 
