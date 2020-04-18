@@ -104,9 +104,8 @@ int main()
   
   - If the int does not match any of the cases, it will jump to the <code>default</code> section
   
-<br>
 
-**Frequently Asked Questions**
+### Frequently Asked Questions
 
 - **What happens if you accidentally forgot to include a break?**
 
@@ -248,7 +247,7 @@ for (int k = 10; k >= 0; k++)
   ...
 ```
 
-**Example**
+### Example
 
 * The following program writes out the powers of 2 that are less than 1000, starting at 1
 
