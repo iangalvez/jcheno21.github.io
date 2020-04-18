@@ -382,13 +382,6 @@ else
   - **High:** <math>[100000, 500000)</math>
   - **Very high:** Greater than 500000
 
-```
-Low: < 30,000
-Medium: >= 30,000 and < 100,000
-High: >= 100,000 and < 500,000
-Very high: >= 500,000
-```
-
 ```cpp
 if (income < 30000)
   cout << "Low";
@@ -407,30 +400,15 @@ else
 }}}
 ```
 
-If your income is low, for instance, the lower portions of the program don’t even matter
+* If your income is low, for instance, the lower portions of the program don’t even matter
 
-This structure is called an if-ladder
+* This structure is called an if-ladder
 
+- You can also take out the if-statement at the bottom
 
+  - If the program runs the if-statement at the bottom, it is understood that your income is greater than 500,000
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-You can take out the if-statement at the bottom
-
-If the program runs the if-statement at the bottom, your income must be greater than 500,000
-
-
+```cpp
 if (income < 30000)
 cout << "Low";
 else 
@@ -444,7 +422,7 @@ cout << "High";
 else
 cout << "Very high";
 }}
-
+```
 
  
 [back](./)
