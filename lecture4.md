@@ -2,7 +2,7 @@ For a **pdf version** of Lecture 4 notes, click [here](./Lecture 4 Notes.pdf).
 
 ---
 
-## Recap From Previous Lecture
+## Recap of Previous Lecture
 
 * Recall the **if-ladder** from the last lecture:
 
