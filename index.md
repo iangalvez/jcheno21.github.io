@@ -13,3 +13,5 @@ If you find any mistakes within my notes, please send me an [email](mailto:jchen
 <br>[Lecture 3](./lecture3.html)
 <br>[Lecture 4](./lecture4.html)
  
+## Practice Midterms
+[Practice Midterm 1](./pmt1.html)
