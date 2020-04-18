@@ -1,5 +1,8 @@
 ## Lecture 4 Notes
 For a **pdf version** of these notes, click <br>[here](./Lecture 4 Notes.pdf).
+
+<br>
+
 * Recall the **if-ladder** from the last lecture:
 
 
