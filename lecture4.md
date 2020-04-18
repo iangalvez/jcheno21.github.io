@@ -1,5 +1,5 @@
 ## Lecture 4 Notes
-For a **pdf version** of these notes, click <br>[here](./Lecture 4 Notes.pdf).
+For a **pdf version** of these notes, click [here](./Lecture 4 Notes.pdf).
 
 <br>
 
