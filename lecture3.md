@@ -2,51 +2,45 @@
 
 * Recall the following program from lecture 2
 
+```cpp
 #include <iostream>
 using namespace std;
 
 int main()
 {
-cout << "How many hours did you work? ";
-double hoursworked;
-cin >> hoursworked;
+ cout << "How many hours did you work? ";
+ double hoursworked;
+ cin >> hoursworked;
 
-cout << "What is your hourly rate of pay? ";
-double payRate;
-cin >> payRate;
-if (payRate < 15.00)
-cout << "Ask for a raise!" << endl;
+ cout << "What is your hourly rate of pay? ";
+ double payRate;
+ cin >> payRate;
+ if (payRate < 15.00)
+ cout << "Ask for a raise!" << endl;
 
-double amtEarned = hoursworked * payRate;
-cout.setf(ios::fixed);
-cout.precision(2);
-cout << "You earned $" << amtEarned << endl;
+ double amtEarned = hoursworked * payRate;
+ cout.setf(ios::fixed);
+ cout.precision(2);
+ cout << "You earned $" << amtEarned << endl;
 
 
-double withholdingRate;
+ double withholdingRate;
 
-if (payRate >= 18.00)
-withholdingRate = 0.10;
+ if (payRate >= 18.00)
+  withholdingRate = 0.10;
 
-else
-withholdingRate = 0.05;
+ else
+  withholdingRate = 0.05;
 
-cout << "$" << (withholdingRate * amtEarned) << " will be withheld." << endl;
+ cout << "$" << (withholdingRate * amtEarned) << " will be withheld." << endl;
 }
+```
 
+- Instead of saying <code>else withholdingRate = 0.05</code>, we can remove the else statement and initialize it to be 0.05 at the top
 
+ - Will have the same outputs
 
-
-
-
-
-
-
-
-Instead of saying else withholdingRate = 0.05, we can remove the else statement and initialize it to be 0.05 at the top
-
-Will have the same outputs
-
+```cpp
 ...
 
 double withholdingRate = 0.05; // initialized to be 0.05
@@ -54,106 +48,80 @@ double withholdingRate = 0.05; // initialized to be 0.05
 if (payRate >= 18.00)
 withholdingRate = 0.10; // ignores the initial value if payRate >= 18.00
 
-
 ...
+```
 
+* Your code will be easier to read if you break it into sections with space in between
 
-Your code will be easier to read if you break it into sections with space in between
+- Sections should be separated by function
 
-Sections should be separated by function
+ - Similar to paragraphs
 
-Similar to paragraphs
+- A nicely annotated program, separated by section, should look similar to the one shown below
 
-A nicely annotated program, separated by section, should look similar to the one shown on the next page
+ - The markings <code>// sample text</code> are annotations for your own purposes
 
-The green markings // sample text are annotations for your own purposes
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Sample program with annotations and good organization
-
+```cpp
 #include <iostream>
 using namespace std;
 
 int main()
 {
 
-// Gather input data
+ // Gather input data
 
-cout << "How many hours did you work? ";
-double hoursworked;
-cin >> hoursworked;
+ cout << "How many hours did you work? ";
+ double hoursworked;
+ cin >> hoursworked;
 
-cout << "What is your hourly rate of pay? ";
-double payRate;
-cin >> payRate;
+ cout << "What is your hourly rate of pay? ";
+ double payRate;
+ cin >> payRate;
 
-// Compute and print earnings
+ // Compute and print earnings
 
-double amtEarned = hoursworked * payRate;
-cout.setf(ios::fixed);
-cout.precision(2);
-cout << "You earned $" << amtEarned << endl;
+ double amtEarned = hoursworked * payRate;
+ cout.setf(ios::fixed);
+ cout.precision(2);
+ cout << "You earned $" << amtEarned << endl;
 
-// Compute and print withholding
+ // Compute and print withholding
 
-double withholdingRate
-if (payRate >= 18.00)
-withholdingRate = 0.10;
-else
-withholdingRate = 0.05;
+ double withholdingRate
+ if (payRate >= 18.00)
+  withholdingRate = 0.10;
+ else
+  withholdingRate = 0.05;
 
-cout << "$" << (withholdingRate * amtEarned) << " will be withheld." << endl;
+ cout << "$" << (withholdingRate * amtEarned) << " will be withheld." << endl;
 }
+```
 
+* If you are writing a program with certain variables that change frequently, define them at the top of the program
 
-
-
-
-
-
-
-
-If you are writing a program with certain variables that change frequently, define them at the top of the program
-
+```cpp
 #include <iostream>
 using namespace std;
 
 int main()
 {
-/* Variables that frequently change are defined here. That way, you are able to quickly edit it without having to go through the whole program. */
+ /* Variables that frequently change are defined here. That way, you are able to quickly edit it without having to go through the whole program. */
 
-double PAYRATE_THRESHOLD = 18.00;
-double HIGH_WITHHOLDING_RATE = 0.10;
-double LOW_WITHHOLDING_RATE = 0.05;
+ double PAYRATE_THRESHOLD = 18.00;
+ double HIGH_WITHHOLDING_RATE = 0.10;
+ double LOW_WITHHOLDING_RATE = 0.05;
 
 ...
 
-double withholdingRate
-if (payRate >= PAYRATE_THRESHOLD)
-withholdingRate = HIGH_WITHHOLDING_RATE; // Sets it equal to defined variable
-else
-withholdingRate = LOW_WITHHOLDING_RATE; // Sets it equal to defined variable
+ double withholdingRate
+ if (payRate >= PAYRATE_THRESHOLD)
+  withholdingRate = HIGH_WITHHOLDING_RATE; // Sets it equal to defined variable
+ else
+  withholdingRate = LOW_WITHHOLDING_RATE; // Sets it equal to defined variable
 
-cout << "$" << (withholdingRate * amtEarned) << " will be withheld." << endl;
+ cout << "$" << (withholdingRate * amtEarned) << " will be withheld." << endl;
 }
-
+```
 
 If you want an initialized variable to remain constant and ignore any changes, use const before declaring it
 
