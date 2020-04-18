@@ -8,31 +8,31 @@ using namespace std;
 
 int main()
 {
- cout << "How many hours did you work? ";
- double hoursworked;
- cin >> hoursworked;
+  cout << "How many hours did you work? ";
+  double hoursworked;
+  cin >> hoursworked;
 
- cout << "What is your hourly rate of pay? ";
- double payRate;
- cin >> payRate;
- if (payRate < 15.00)
- cout << "Ask for a raise!" << endl;
+  cout << "What is your hourly rate of pay? ";
+  double payRate;
+  cin >> payRate;
+  if (payRate < 15.00)
+    cout << "Ask for a raise!" << endl;
 
- double amtEarned = hoursworked * payRate;
- cout.setf(ios::fixed);
- cout.precision(2);
- cout << "You earned $" << amtEarned << endl;
+  double amtEarned = hoursworked * payRate;
+  cout.setf(ios::fixed);
+  cout.precision(2);
+  cout << "You earned $" << amtEarned << endl;
 
 
- double withholdingRate;
+  double withholdingRate;
 
- if (payRate >= 18.00)
-  withholdingRate = 0.10;
+  if (payRate >= 18.00)
+    withholdingRate = 0.10;
 
- else
-  withholdingRate = 0.05;
+  else
+    withholdingRate = 0.05;
 
- cout << "$" << (withholdingRate * amtEarned) << " will be withheld." << endl;
+  cout << "$" << (withholdingRate * amtEarned) << " will be withheld." << endl;
 }
 ```
 
@@ -46,7 +46,7 @@ int main()
 double withholdingRate = 0.05; // initialized to be 0.05
 
 if (payRate >= 18.00)
-withholdingRate = 0.10; // ignores the initial value if payRate >= 18.00
+  withholdingRate = 0.10; // ignores the initial value if payRate >= 18.00
 
 ...
 ```
@@ -55,11 +55,11 @@ withholdingRate = 0.10; // ignores the initial value if payRate >= 18.00
 
 - Sections should be separated by function
 
- - Similar to paragraphs
+  - Similar to paragraphs
 
 - A nicely annotated program, separated by section, should look similar to the one shown below
 
- - The markings <code>// sample text</code> are annotations for your own purposes
+  - The markings <code>// sample text</code> are annotations for your own purposes
 
 ```cpp
 #include <iostream>
@@ -68,32 +68,32 @@ using namespace std;
 int main()
 {
 
- // Gather input data
+  // Gather input data
 
- cout << "How many hours did you work? ";
- double hoursworked;
- cin >> hoursworked;
+  cout << "How many hours did you work? ";
+  double hoursworked;
+  cin >> hoursworked;
 
- cout << "What is your hourly rate of pay? ";
- double payRate;
- cin >> payRate;
+  cout << "What is your hourly rate of pay? ";
+  double payRate;
+  cin >> payRate;
 
- // Compute and print earnings
+  // Compute and print earnings
 
- double amtEarned = hoursworked * payRate;
- cout.setf(ios::fixed);
- cout.precision(2);
- cout << "You earned $" << amtEarned << endl;
+  double amtEarned = hoursworked * payRate;
+  cout.setf(ios::fixed);
+  cout.precision(2);
+  cout << "You earned $" << amtEarned << endl;
 
- // Compute and print withholding
+  // Compute and print withholding
 
- double withholdingRate
- if (payRate >= 18.00)
-  withholdingRate = 0.10;
- else
-  withholdingRate = 0.05;
+  double withholdingRate
+  if (payRate >= 18.00)
+    withholdingRate = 0.10;
+  else
+    withholdingRate = 0.05;
 
- cout << "$" << (withholdingRate * amtEarned) << " will be withheld." << endl;
+  cout << "$" << (withholdingRate * amtEarned) << " will be withheld." << endl;
 }
 ```
 
@@ -105,28 +105,29 @@ using namespace std;
 
 int main()
 {
- /* Variables that frequently change are defined here. That way, you are able to quickly edit it without having to go through the whole program. */
+  /* Variables that frequently change are defined here. That way, you are able to quickly edit it without having to go through the whole program. */
 
- double PAYRATE_THRESHOLD = 18.00;
- double HIGH_WITHHOLDING_RATE = 0.10;
- double LOW_WITHHOLDING_RATE = 0.05;
+  double PAYRATE_THRESHOLD = 18.00;
+  double HIGH_WITHHOLDING_RATE = 0.10;
+  double LOW_WITHHOLDING_RATE = 0.05;
 
 ...
 
- double withholdingRate
- if (payRate >= PAYRATE_THRESHOLD)
-  withholdingRate = HIGH_WITHHOLDING_RATE; // Sets it equal to defined variable
- else
-  withholdingRate = LOW_WITHHOLDING_RATE; // Sets it equal to defined variable
+  double withholdingRate
+  if (payRate >= PAYRATE_THRESHOLD)
+    withholdingRate = HIGH_WITHHOLDING_RATE; // Sets it equal to defined variable
+  else
+    withholdingRate = LOW_WITHHOLDING_RATE; // Sets it equal to defined variable
 
- cout << "$" << (withholdingRate * amtEarned) << " will be withheld." << endl;
+  cout << "$" << (withholdingRate * amtEarned) << " will be withheld." << endl;
 }
 ```
 
-If you want an initialized variable to remain constant and ignore any changes, use const before declaring it
+* If you want an initialized variable to remain constant, use <code>const</code> before declaring it
 
-If you try to change a const, the program will not compile
+* If you try to change a const, the program will not compile
 
+```cpp
 ...
 // "const" is used so that these values are set and cannot be changed
 
@@ -138,11 +139,13 @@ const double LOW_WITHHOLDING_RATE = 0.05;
 PAYRATE_THRESHOLD = 19.00; // Wants to change the "const" defined earlier
 // Program will not compile!!!!
 ...
+```
 
-The following program will compile, but it will output wrong results
+- The following program will compile, but it will output wrong results
 
-This is because the else statement will pair up with the nearest if that is not paired
+  - This is because the else statement will pair up with the nearest <code>if</code> that is not paired
 
+```cpp
 ...
 string citizenship;
 int age;
@@ -153,18 +156,19 @@ int age;
 
 if (citizenship == "US")
 
-
-if (age >= 18)
-cout << "You can vote in U.S. elections" << endl; 
+  if (age >= 18)
+    cout << "You can vote in U.S. elections" << endl; 
 
 // This else pairs up with “if (age >= 18)”
 else
-cout << "You are not a U.S. citizen" << endl;
+  cout << "You are not a U.S. citizen" << endl;
 ...
+```
 
 
-The solution is to use curly braces to isolate the if-statement in between
+* The solution is to use curly braces to isolate the if-statement in between
 
+```cpp
 ...
 string citizenship;
 int age;
@@ -175,60 +179,58 @@ int age;
 
 if (citizenship == "US")
 {
-if (age >= 18)
-cout << "You can vote in U.S. elections" << endl; 
+  if (age >= 18)
+    cout << "You can vote in U.S. elections" << endl; 
 }
+
 /* This else pairs up with "if (citizenship == "US")" since the if-statement above is protected by curly braces */
 else
-cout << "You are not a U.S. citizen" << endl;
+  cout << "You are not a U.S. citizen" << endl;
 ...
+```
 
-You can also use if-statements with complex conditions using “or” (||) or “and” (&&)
+* You can also use if-statements with complex conditions using “or” (<code>||</code>) or “and” (<code>&&</code>)
 
+```cpp
 if (citizenship == "US" || citizenship == "Canada")
-cout << "The country code is 1" << endl;
+  cout << "The country code is 1" << endl;
 
 if (citizenship == "US" && age >= 18)
-cout << "You are eligible to vote in U.S. elections" << endl;
+  cout << "You are eligible to vote in U.S. elections" << endl;
 
 if (roll == 2 || roll == 3 || roll == 12)
-cout << "You lose!" << endl;
+  cout << "You lose!" << endl;
+```
 
+* <code>&&</code< has higher precedence than <code>||</code>
 
-&& has higher precedence than ||
+- The following statements are equivalent, and they say:
 
-The following statements are equivalent, and they say:
+  - If your major is CS, you are eligible for something
 
-If your major is CS, you are eligible for something
+  - If your major is MATH, you also need at least a 3.2 gpa to be eligible
 
-If your major is MATH, you also need at least a 3.2 gpa to be eligible
-
+```cpp
 if (major == "CS" || major == "MATH" && gpa >= 3.2)
+```
 
+```cpp
 if (major == "CS" || (major == "MATH" && gpa >= 3.2))
+```
 
+- The following statements are not equivalent to the previous ones; they say:
 
-The following statements are not equivalent to the previous ones; they say:
+  - If your major is CS and have a 3.2 or higher gpa, you are eligible for something
 
-If your major is CS and have a 3.2 or higher gpa, you are eligible for something
+  - If your major is CS and have a 3.2 or higher gpa, you are also eligible
 
-If your major is CS and have a 3.2 or higher gpa, you are also eligible
-
+```cpp
 if ((major == "CS" || major == "MATH") && gpa >= 3.2)
+```
 
+- The following program is a common mistake 
 
-
-
-
-
-
-
-
-
-The following program is a common mistake 
-
-The lines in bold are the outputs
-
+```cpp
 ...
 int n = 17;
 cout << "n is " << n << endl;
@@ -238,39 +240,38 @@ cout << "n is zero" << endl;
 
 else
 cout << "n is not zero; n is " << n << endl;
-
-n is not zero; n is 0
 ...
+```
+
+- The output is <code>n is not zero; n is 0</code>
+
+  - Doesn't make sense
+
+* Here, n is reassigned to be 2
+
+* It will fall under the else case since the if-statement is basically nonexistent
 
 
-Here, n is reassigned to be 2
+- Remember that:
 
-It will fall under the else case since the if-statement is basically nonexistent
+  - <code>=</code> is an assignment statement
 
-
-Remember that:
-
-= is an assignment statement
-
-== is an equal sign in an if-statement
+  - <code>==</code> is an equal sign in an if-statement
 
 
-When writing complex if-statements, write down the conditions completely
+* When writing complex if-statements, write down the conditions completely
 
+```cpp
 if (citizenship == "US" || citizenship = "Canada") // Valid statement
 
 if (citizenship == "US" || == "Canada") // Error! Won't compile.
 
 if (citizenship == "US" || "Canada") // Won't do what you want
+```
 
+* More examples below:
 
-
-
-
-
-
-More examples below:
-
+```cpp
 if (rating < 1 || rating > 10)
 cout << "Rating must be from 1 to 10" << endl; // Valid statement
 
@@ -284,29 +285,30 @@ if (1 <= rating <= 10) // Error!
 if (a/b + c/d < 10) // Works unless b or d is equal to 0
 
 if (b != 0 && d != 0 && a/b + c/d < 10) // Valid since equal precedence is read from left to right
+```
 
+* In the last if-statement in the program above, if b is equal to 0, then the condition a/b + c/d < 10 will not be evaluated
 
-In the last if-statement in the code above, if b is equal to 0, then the condition a/b + c/d < 10 will not be evaluated
+* If a statement is false, all proceeding conditions will not be evaluated
 
-If a statement is false, all proceeding conditions will not be evaluated
-
-
+```cpp
 if (a/b + c/d < 10 && b != 0 && d != 0)
+```
 
-The program above will crash since a/b + c/d < 10 is evaluated before subsequent conditions
+* The program above will crash since a/b + c/d < 10 is evaluated before subsequent conditions
 
 
+**In summary**
 
-In summary,
+For <code>A && B</code>
+1. Evaluate A.
+1. If A is true, evaluate B, result is A and B.
+1. If A is false, the result is false, and B is not even evaluated.
 
-A && B
-Evaluate A.
-If A is true, evaluate B, result is A and B.
-If A is false, the result is false, and B is not even evaluated.
-A || B
-Evaluate A.
-If A is true, the result is true, and B is not even evaluated.
-If A is false, evaluate B, result is A or B.
+For <code>A || B</code>
+1. Evaluate A.
+1. If A is true, the result is true, and B is not even evaluated.
+1. If A is false, evaluate B, result is A or B.
 
 
 
