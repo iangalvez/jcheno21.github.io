@@ -101,7 +101,7 @@ int main()
 
 * Otherwise, the string input will be read as empty
 
-## If-statments
+## If-statements
 
 * Let’s revisit the code we wrote during Lecture 1:
 
