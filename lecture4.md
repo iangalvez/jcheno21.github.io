@@ -1,4 +1,4 @@
-For a **pdf version** of these notes, click [here](./Lecture 4 Notes.pdf).
+For a **pdf version** of Lecture 4 notes, click [here](./Lecture 4 Notes.pdf).
 
 ---
 
