@@ -118,25 +118,29 @@ cout.precision(2);
 
 * Most compilers will restrict outputs to four decimal places
 
-If less than four decimal places, doubles will be truncated to the last nonzero digit
+* If less than four decimal places, doubles will be truncated to the last nonzero digit
 
+## Logic Errors
 
-The following examples are logic errors:
+* The following examples are logic errors:
 
-Sometimes, there might be a 0 in the denominator, and the program might crash
+* Sometimes, there might be a 0 in the denominator, and the program might crash
 
+```cpp
 int a = 10;
 int b = a * a;
 int c = 25 / (b-100);
+```
 
-The following example is undefined because e is one billion and f exceeds the maximum value allowed for an int
+* The following example is undefined because e is one billion and f exceeds the maximum value allowed for an int
 
-The output is some random integer
+*  The output is some random integer
 
+```cpp
 int d = 1000;
 int e  = d * d * d;
 int f = d * e;
-
+```
 
   
 [back](./)
