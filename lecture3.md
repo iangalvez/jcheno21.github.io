@@ -202,7 +202,7 @@ if (roll == 2 || roll == 3 || roll == 12)
   cout << "You lose!" << endl;
 ```
 
-* <code>&&</code< has higher precedence than <code>||</code>
+* <code>&&</code> has higher precedence than <code>||</code>
 
 - The following statements are equivalent, and they say:
 
