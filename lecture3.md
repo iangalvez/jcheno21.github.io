@@ -146,7 +146,7 @@ PAYRATE_THRESHOLD = 19.00; // Wants to change the "const" defined earlier
 ...
 ```
 
-## Complex if-statments
+## Complex if-statements
 
 - The following program will compile, but it will output wrong results
 
