@@ -26,7 +26,7 @@ else
 
 <br>
 
-**Switch Statements**
+###Switch Statements
 
 * Let's say we have a program that asks the user to make a choice from one to five:
 
