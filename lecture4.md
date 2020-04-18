@@ -1,7 +1,7 @@
-## Lecture 4 Notes
 For a **pdf version** of these notes, click [here](./Lecture 4 Notes.pdf).
 
 ---
+## Lecture 4 Notes
 
 * Recall the **if-ladder** from the last lecture:
 
