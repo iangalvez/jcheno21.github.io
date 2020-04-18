@@ -2,7 +2,8 @@ Welcome to my website!
 
 This repository is very much a work in progress. Here, you will find lecture notes, worksheets, and, other resources pertaining to **CS 31**, an introductory C++ course at UCLA.
 
-If you find any mistakes within my notes, please kindly send me an [email](mailto:jcheno21@g.ucla.edu).
+If you find any mistakes within my notes, please kindly send me an email at [jcheno21[at]g[dot]ucla[dot]edu](mailto:jcheno21@g.ucla.edu).
+
 ## Summary Sheet
 [Summary Sheet by Lecture](./summarysheet.html)
 
