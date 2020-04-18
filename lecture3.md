@@ -273,12 +273,12 @@ if (citizenship == "US" || "Canada") // Won't do what you want
 
 ```cpp
 if (rating < 1 || rating > 10)
-cout << "Rating must be from 1 to 10" << endl; // Valid statement
+  cout << "Rating must be from 1 to 10" << endl; // Valid statement
 
 if (rating < 1 || > 10) // Won't compile
 
 if (rating >= 1 && rating <= 10)
-cout << "Rating is OK" << endl; // Valid statement
+  cout << "Rating is OK" << endl; // Valid statement
 
 if (1 <= rating <= 10) // Error!
 
@@ -311,132 +311,101 @@ For <code>A || B</code>
 1. If A is false, evaluate B, result is A or B.
 
 
+* Sometimes, we want the shorter lines of commands to be on top to make it easier to read
 
+* Let’s change the following program:
 
-
-
-Sometimes, we want the shorter lines of commands to be on top to make it easier to read
-
-Let’s change the following program:
-
+```cpp
 if (citizenship == "US" && age >= 18)
 {
-...
-...
-...
+  ...
+  ...
+  ...
 }
 
 else
-cout << "You cannot vote in U.S. elections" << endl;
+  cout << "You cannot vote in U.S. elections" << endl;
+```
 
-You cannot just use the opposite operators!
+* You cannot just use the opposite operators!
 
+```cpp
 if (citizenship != "US" && age < 18) // Not what we want!!!
-cout << "You cannot vote in U.S. elections" << endl;
+  cout << "You cannot vote in U.S. elections" << endl;
 
 else
 {
-...
-...
-...
+  ...
+  ...
+  ...
 }
+```
 
-Pay attention to the && and ||’s
+* Pay attention to the <code>&&</code< and <code>||</code>’s
+  
+* Also pay attention to the <code><</code> vs. <code><=</code> and <code>></code> vs. <code>>=</code>
 
-The following program switches the && to an || and is logically equivalent to the program at the top of this page
+* The following program switches the && to an || and is logically equivalent to the program at the top of this page
 
+```cpp
 if (citizenship != "US" || age < 18)
-cout << "You cannot vote in U.S. elections" << endl; // Correct!
+  cout << "You cannot vote in U.S. elections" << endl; // Correct!
 
 else
 {
-...
-...
-...
+  ...
+  ...
+  ...
 }
+```
 
 
-
-The De Morgan Laws state that when you take the opposite, you need to switch 
-the && and ||’s
-
-not (A AND B)
-… turns into ...
-(not A) or (not B)
-not (A OR B)
-… turns into ...
-(not A) AND (not B)
+- The De Morgan Laws state that when you take the opposite, you need to switch the <code>&&</code> and <code>||</code>’s
+  
+  - <code>not (A AND B)</code> turns into <code>(not A) or (not B)</code>
+  - <code>not (A OR B)</code> turns into <code>(not A) AND (not B)</code>
 
 
-We also need to consider the inclusivities of greater-than and less-than signs
+- We also need to consider the inclusivities of greater-than and less-than signs
 
-not (a <= b)
-… turns into ...
-a > b
-not (a < b)
-… turns into ...
-a >= b
-not (a >= b)
-… turns into ...
-a < b
-not (a > b)
-… turns into ...
-a <= b
-not (a == b)
-… turns into ...
-a != b
-not (a != b)
-… turns into ...
-a == b
+  - <code>not (a <= b)</code> turns into <code>a > b</code>
+  - <code>not (a < b)</code> turns into <code>a >= b</code>
+  - <code>not (a >= b)</code> turns into <code>a < b</code>
+  - <code>not (a > b)</code> turns into <code>a <= b</code>
+  - <code>not (a == b)</code> turns into <code>a != b</code>
+  - <code>not (a != b)</code> turns into <code>a == b</code>
 
+- Let’s write a program that categorizes income into the following categories:
 
+  - **Low:** Less than 30000
+  - **Medium:** <math>[30000, 100000)</math>
+  - **High:** <math>[100000, 500000)</math>
+  - **Very high:** Greater than 500000
 
+```
+Low: < 30,000
+Medium: >= 30,000 and < 100,000
+High: >= 100,000 and < 500,000
+Very high: >= 500,000
+```
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Let’s write a program that categorizes income into the following categories:
-
-Low: 		< 30,000
-Medium: 	>= 30,000 	and < 100,000
-High: 		>= 100,000 	and < 500,000
-Very high: 	>= 500,000
-
-
+```cpp
 if (income < 30000)
-cout << "Low";
+  cout << "Low";
 else 
 {
-if (income >= 30000 && income < 100000)
-cout << "Middle";
-else
-{
-if (income >= 100000 && income < 500000)
-cout << "High";
-else
-{
-if (income >= 500000)
-cout << "Very high";
+  if (income >= 30000 && income < 100000)
+    cout << "Middle";
+  else
+  {
+    if (income >= 100000 && income < 500000)
+      cout << "High";
+    else
+    {
+      if (income >= 500000)
+        cout << "Very high";
 }}}
-
+```
 
 If your income is low, for instance, the lower portions of the program don’t even matter
 
