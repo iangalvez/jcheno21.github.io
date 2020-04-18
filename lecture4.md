@@ -1,12 +1,5 @@
 ## Lecture 4 Notes
-<html>
-<body>
 
-</body>
-<script type="text/javascript">
-    document.location = "jcheno21.github.io/lectures/lecture1.pdf"
-</script>
-</html>
 * Recall the **if-ladder** from the last lecture:
 
 
