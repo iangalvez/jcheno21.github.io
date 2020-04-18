@@ -6,7 +6,7 @@ For a **pdf version** of Lecture 1 notes, click [here](./Lecture 1 Notes.pdf).
 
 * We want a program what will do the following calculations
 
-```cpp
+```
 How many hours did you work? 40
 What is your hourly rate of pay? 16.13
 
