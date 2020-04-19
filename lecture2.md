@@ -54,7 +54,7 @@ int main()
 
   - In this case, "Sir Robin" is two words, so you need to use getline
 
-## The <code>cin.ignore(10000, 'n')</code> Feature
+## The <code>cin.ignore(10000, '\n')</code> Feature
 
 * Let’s expand on the program so that there are integers so that the following dialogue applies:
 
