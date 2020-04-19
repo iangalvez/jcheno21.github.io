@@ -39,7 +39,7 @@ int main()
 }
 ```
 
-### Logic Error
+### Program with Logic Error
 
 ```cpp
 // Code for Project 1
@@ -79,7 +79,7 @@ int main()
 }
 ```
 
-### Compilation Error
+### Program with Compilation Error
 ```cpp
 // Code for Project 1
 // Report poll results
