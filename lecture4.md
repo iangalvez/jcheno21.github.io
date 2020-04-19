@@ -176,7 +176,7 @@ int n = 1;
 while (n <= nTimes)
 {
   cout << "Hello" << endl;
-  n = n + 1 // Reassigns n and loops back to the beginning of the while-statement
+  n = n + 1; // Reassigns n and loops back to the beginning of the while-statement
 }
 ```
 
