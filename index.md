@@ -17,5 +17,9 @@ If you find any mistakes within my notes, please send me an [email](mailto:jchen
 [Project 1](./project1.html)
 <br>[Project 2](./project2.html)
 
+## LA Worksheets
+[Worksheet 1](./wkst1.html)
+<br>[Worksheet 2](./wkst2.html)
+
 ## Practice Midterms
 [Practice Midterm 1](./pmt1.html)
