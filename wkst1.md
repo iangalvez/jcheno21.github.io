@@ -4,5 +4,6 @@ For a **pdf version** of the Solutions to Worksheet 1, click [here](./Worksheet 
 
 ---
 
+(**Note:** I neither created nor own these worksheets. However, I have included them here and typed up solutions for personal or educational use.)
 
 [Home](./)
