@@ -1,3 +1,7 @@
+For a **pdf version** of Lecture 5 notes, click [here](./Lecture 5 Notes.pdf).
+
+---
+
 ## Recap of Previous Lecture
 
 * Recall while-loops and for-loops from last lecture
