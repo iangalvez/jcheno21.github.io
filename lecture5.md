@@ -1,4 +1,6 @@
-Recall while-loops and for-loops from last lecture
+## Recap of Previous Lecture
+
+* Recall while-loops and for-loops from last lecture
 
 ```cpp
 initialization;
@@ -7,23 +9,28 @@ while (stay-in-loop condition)
   statement
   prepare-for-next-iteration;
   }
-```
 
 for (initialization; stay-in-loop condition; prepare-for-next-iteration)
   statement
+```
 
-They both serve the same purpose, but are formatted differently
+- They both serve the same purpose, but are formatted differently
 
-Choose the one that’s simpler for you
+  - Choose the one that’s simpler for you
 
-We want to print out three rows of four asterisks
+* We want to print out three rows of four asterisks
 
-Any time there is repetition, you should always think of loops
+* Any time there is repetition, you should always think of loops
 
+```cpp
 ****
 ****
 ****
+```
 
+* The program is as follows:
+
+```cpp
 for (int r = 1; r <=3; r++)
 {
   for (int c = 1; c <= 4; c++)
@@ -32,16 +39,11 @@ for (int r = 1; r <=3; r++)
   }
   cout << endl; // This is to start a new line after there are 4 asterisks
 }
+```
 
+## Strings
 
-
-
-
-
-
-
-
-We want to visit every character in a string and cout it out, followed by an endline
+* We want to visit every character in a string and cout it out, followed by an endline
 
 string s = "Hello";
   for (int k = 0; k != s.size(); k++) // The kth character of "Hello"
