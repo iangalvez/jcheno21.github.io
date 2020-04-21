@@ -156,7 +156,7 @@ int main()
 
 - <code>if (isalpha(some character))</code> tests whether a character is an uppercase or lowercase letter, and it will store true if it is indeed any letter
 
-- If you want the opposite (i.e. something that is not a digit), you can use the not (!) operator for the if-statement
+- If you want the opposite (i.e. something that is not a digit), you can use the not (<code>!</code>) operator for the if-statement
 
 ```cpp
 if ( ! is digit(s.at(k)) )
