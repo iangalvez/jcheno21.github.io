@@ -41,7 +41,7 @@ for (int r = 1; r <=3; r++)
 }
 ```
 
-## Strings
+## Strings and Characters
 
 * We want to visit every character in a string and cout it out, followed by an endline
 
