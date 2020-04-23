@@ -1,6 +1,6 @@
 **Update(s):** Midterm 1 will cover everything up to (but not including) functions in Lecture 6. After talking to people who've taken this class before, there might be a mix of 
 * "What is the output" questions
-* Write some code with the following specs questions
+* "Write some code that fits the specs" questions
 * Multiple choice questions
 
 However, this quarter's format *may* be different.
