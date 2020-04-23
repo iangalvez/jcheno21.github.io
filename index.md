@@ -1,3 +1,7 @@
+**Update(s):** Midterm 1 will cover everything up to (but not including) functions in Lecture 6.
+
+---
+
 Welcome to my website!
 
 This repository is very much a work in progress. Here, you will find lecture notes, worksheets, and, other resources pertaining to **CS 31**, an introductory C++ course at UCLA.
