@@ -29,7 +29,7 @@ int main()
 }
 ```
 
-#include <cctype> allows us to use the following:
+- <code>#include <cctype></code> allows us to use the following:
 
 if (isdigit(some character)) tests whether a character is a digit, and it will store true if it is indeed a digit
 
